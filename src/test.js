@@ -8,7 +8,7 @@ export class Test {
 
 
     method_1() {
-        const val1 = 'hello';
+        const val1 = "hello";
     }
 
 }
