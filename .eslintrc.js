@@ -5,6 +5,13 @@ module.exports = {
     "es6": true
   },
   rules: {
-    "quotes": ["error", "double"]
+    "quotes": ["error", "double"],
+    
+    "prettier/prettier": ["off", {
+      "trailingComma": "none",
+      "bracketSpacing": true,
+      "endOfLine": "auto",
+      "proseWrap": "never"
+  }]
   }
 };
